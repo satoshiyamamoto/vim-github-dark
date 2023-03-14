@@ -36,3 +36,10 @@ let s:V3 = [ s:base3, s:base1, '', '' ]
 let g:airline#themes#ghdark#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 let g:airline#themes#ghdark#palette.visual.airline_error = [ s:base0, s:red, '', '' ,'bold']
 let g:airline#themes#ghdark#palette.visual.airline_warning = [ s:base0, s:orange, '', '' , 'bold']
+
+let s:IA1 = [ s:base3, s:base1, '', ''  ]
+let s:IA2 = [ s:base3, s:base1, '', ''  ]
+let s:IA3 = [ s:base3, s:base1, '', ''  ]
+let g:airline#themes#ghdark#palette.inactive = airline#themes#generate_color_map(s:IA1, s:IA2, s:IA3)
+let g:airline#themes#ghdark#palette.inactive.airline_error = [ s:base0, s:red, '', '' ,'bold' ]
+let g:airline#themes#ghdark#palette.inactive.airline_warning = [ s:base0, s:orange, '', '' , 'bold' ]
